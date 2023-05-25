@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head> <title> Свойства блоков </title> 
+<style type='text/css'>
+body {
+background-color: gray;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+h1{
+font-family: Arial;
+text-align: center;
+color: #00FF00;
+border: dotted red;
+margin: 50px;
+padding: 30px;
+}
+
+p.bord1{
+font-family: Tahoma;
+color: yellow;
+font-size: 20pt;
+line-height: 20pt;
+text-align: justify;
+text-indent: 20pt;
+border: double;
+border-top-color: red;
+border-bottom-color: red;
+border-left-color: green;
+border-right-color: green;
+border-width: 5px;
+padding: 20px;
+margin: 25px;
+background-color: purple;
+}
+
+p.bord2{
+font-family: Tahoma;
+color: #0000FF;
+font-size: 15pt;
+line-height: 20pt;
+text-align: justify;
+text-indent: 20pt;
+border: ridge blue;
+border-width: 25px;
+padding: 20px;
+margin: 25px;
+background-image: url(https://i.pinimg.com/originals/14/70/e9/1470e9bccdcb2f18876e936e1edc48e6.jpg);
+}
+
+img{
+border-style:groove;
+border-color:olive;
+border-width:15px;
+padding:50px;
+margin:0 25% 0 25%;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Блочная модель CSS</h1>
+<p class='bord1'> На веб-странице любому HTML элементу соответствует определенная прямоуголная область(блок). Во время рендеринга браузер определяет размеры и положение этих блоков, а также определяет их CSS свойства, чтобы применить их и отобразить на экране.</p>
+
+<p class='bord2'> В CSS создана специальная блочная модель (фнгл.box model), которая описывает, из чего состоит любой блок и от каких свойств зависят его размеры. В этой модели каждый блок состоит из четырех областейЖ margin (внешние отступы), border (граница элемента), padding (внутринние отступы), content (содержимое). </p>
+
+<img src='https://vaden-pro.ru/sites/default/files/box-model2.jpg'>
+<br><p><a href='../работы.html' style='background-color: red; padding: 7px; font-size: 19px; color: white; text-decoration: none; font-family: Arial; border-radius: 15px;'>« Вернуться назад </a></p>
+</body>
+</html>
